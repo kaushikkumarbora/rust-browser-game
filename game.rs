@@ -483,22 +483,22 @@ impl State {
                                     4,
                                     SCORE_LABEL_COLOR);
             {
-                let x = (DISPLAY_WIDTH  - FONT_CHAR_WIDTH * COPYRIGHT_SCALE as usize * COPYRIGHT_TEXT.len() - COPYRIGHT_PADDING) as i32;
-                let y = (DISPLAY_HEIGHT - FONT_CHAR_HEIGHT * COPYRIGHT_SCALE as usize - COPYRIGHT_PADDING) as i32;
-                font.render_bytes(
-                    display,
-                    COPYRIGHT_TEXT,
-                    x - SHADOW_OFFSET,
-                    y - SHADOW_OFFSET,
-                    COPYRIGHT_SCALE,
-                    SHADOW_COLOR);
-                font.render_bytes(
-                    display,
-                    COPYRIGHT_TEXT,
-                    x,
-                    y,
-                    COPYRIGHT_SCALE,
-                    SCORE_LABEL_COLOR);
+//                 let x = (DISPLAY_WIDTH  - FONT_CHAR_WIDTH * COPYRIGHT_SCALE as usize * COPYRIGHT_TEXT.len() - COPYRIGHT_PADDING) as i32;
+//                 let y = (DISPLAY_HEIGHT - FONT_CHAR_HEIGHT * COPYRIGHT_SCALE as usize - COPYRIGHT_PADDING) as i32;
+//                 font.render_bytes(
+//                     display,
+//                     COPYRIGHT_TEXT,
+//                     x - SHADOW_OFFSET,
+//                     y - SHADOW_OFFSET,
+//                     COPYRIGHT_SCALE,
+//                     SHADOW_COLOR);
+//                 font.render_bytes(
+//                     display,
+//                     COPYRIGHT_TEXT,
+//                     x,
+//                     y,
+//                     COPYRIGHT_SCALE,
+//                     SCORE_LABEL_COLOR);
             }
         }
     }
